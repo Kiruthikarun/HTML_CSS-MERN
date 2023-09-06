@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Navigation Bar</title>
+    <style>
+      .bor{
+        
+        border: 2px solid black;
+        padding: 4px;
+        width: 208px;
+
+      }
+      .navbar {
+          width: 200px;
+          background-color:rgb(112, 184, 202); 
+          padding: 4px; 
+          height: 100%;
+      }
+      .navbar a {
+        padding-left: 4px;
+        display: block;
+        color: navy;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: none;
+        padding: 10px 0;
+      }
+      .navbar a:hover {
+        background-color:orange;
+        color: white; 
+      }
+      .hor{
+        background-color: #c0b7b7;
+        overflow: hidden;
+        width: max-content;
+      }
+      .hor a{
+        display: block;
+        float: left;
+        font-size: large;
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(27, 27, 174);
+        padding: 15px 20px;
+        border-right: 1px solid rgb(38, 38, 177);
+      }
+      .navbar a:last-child {
+            border-right: none;
+        }
+      .hor a:hover{
+        background-color:#7e7878;
+        color: white;
+      }
+    </style>
+</head>
+<body>
+  <p>Vertical Navigation bar</p>
+  <div class="bor">
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </div>
+  </div>
+  <p>Horizontal Navigation Bar</p>
+
+  <div class="hor">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Contact</a>  
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table form</title>
+</head>
+<body>
+  <table border="1" cellpadding = 0
+  cellspacing = 0  >
+    <tr>
+      <td align="center">
+        <label for="firstName">FirstName</label>
+      </td>
+      <td>
+        <input size=40 type="text" name ="FirstName" >
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <label for="lastName">LastName</label>
+      </td>
+      <td>
+        <input size=40 type="text" name ="LastName" >
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <label for="emai">Mail</label>
+      </td>
+      <td>
+        <input size=40 type="email" name = "Mail">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+      <label for="passWord">Password:</label>
+    </td>
+      <td>
+        <input size=40 type="password" id="passWord"><td>
+    </tr>
+    <tr>
+      <td align="center">
+      <label for="confirmPassword">Retype Password:</label>
+    </td>
+      <td>
+        <input size=40 type="password" name="confirmPassword">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <label for="gender">Gender:</label>
+      </td>
+      <td>
+        <input type="radio" name="gender" id="Male" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" name="gender" id="Female" value="Female">
+        <label for="Female">Female</label>
+      </td>        
+    </tr>
+    <tr>
+      <td align="center">
+        <label for="Age">Age</label>
+      </td>
+      <td>
+        <input size=40 type="tel" name ="age" >
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <label for="address">Address</label>
+      </td>
+      <td><textarea id="address" name="address" cols="30" rows="5"></textarea></td>
+    </tr>
+    <tr>
+      <td align="center">
+        <label for="State">State</label>
+      </td>
+      <td>
+        <input size=40 type="text" name ="State" >
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <label for="Country">Country:</label>
+      </td>
+      <td>
+        <select name="Country">
+          <option>Choose you Country</option>
+          <option>India</option>
+          <option>Canada</option>
+          <option>China</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <label for="languagesKnown">LangKnown</label>
+      </td>
+      <td>
+        <input type="checkbox" name = "English">
+        <label for="English">English</label>
+        <input type="checkbox"  name= "Hindi">
+        <label for="Hindi">Hindi</label>
+        <input type="checkbox" name="Tamil">
+        <label for="Tamil">Tamil</label>
+        <input type="checkbox" name="Spanish">
+        <label for="Spanish">Spanish</label>
+      </td>
+    </tr>
+    <tr>
+      <td  colspan ='2' >
+        <input type="checkbox" name = "agreement">
+        <label for="agreement">I accpet to terms and conditions</label>
+      </td>
+      
+    </tr>
+    <tr>
+      <td align="right" colspan="2">
+        <p >Login in to <a href="https://www.youtube.com/">Ethunus</a> Website</p>
+      </td>
+    </tr>
+ </table>
+<button align = "center">
+  Register
+</button>
+</body>
+</html>
